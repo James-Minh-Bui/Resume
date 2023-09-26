@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express')
 const app = express()
 const port = 5000
+const path = require('path');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -9,6 +10,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
 
+app.use(express.static(path.join(__dirname +'/public')));
 
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
