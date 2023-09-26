@@ -30,7 +30,7 @@ export default function Portfolio() {
                 <div className="box">
                     <div className="projectTxt">
                         <p className="projectTittle">Squeezed</p>
-                        <p className="description">DoorCast is a prototyping tool that allows developers to render code in the new fullstack framework called Fresh, just by dragging and dropping. Just by selecting the element you want to render and drop it into the workspace, specifiy the necessary attribute values, and copy to clipboard the code written in Fresh by clicking copy.</p>
+                        <p className="description">DoorCast is a prototyping tool that allows developers to render code in the new fullstack framework called Fresh. Simply by selecting the element you want to render, dropping it into the workspace, and specifiy the necessary attribute values, users then have the ability to copy and utulize production ready code for their application.</p>
                         <a className="atag" href="https://medium.com/@alexaroberts/prototyping-tool-for-the-freshest-deno-framework-3df9c4c718dc" target="blank">
                             <p className="link">Learn More</p>
                             <KeyboardArrowRightIcon className="arrow"/>
@@ -41,7 +41,7 @@ export default function Portfolio() {
                 <div className="box">
                     <div className="projectTxt">
                         <p className="projectTittle">DoorCast</p>
-                        <p className="description">At Doorcast, a multi-family, real estate investment company, I developed an full stack application that automated a number of internal process including due diligence, renovation, maintenance, and personnel/resource management. The technology stack for this project included cutting-edge tools and frameworks like React for building the user interface, Redux for state management, Storybook for component documentation and testing, Next.js for server-side rendering, and Atlassian tools for project management and collaboration.</p>
+                        <p className="description">At Doorcast, a multi-family, real estate investment company, I developed a full stack application that automated a number of internal process including due diligence, renovation, maintenance, and personnel/resource management. The technology stack for this project included cutting-edge tools and frameworks like React for building the user interface, Redux for state management, Storybook for component documentation and testing, Next.js for server-side rendering, and Atlassian tools for project management and collaboration.</p>
                     </div>
                     <img className="projectimg" alt="doorcast" src={doorcast} />
                 </div>
