@@ -21,7 +21,7 @@ export default function NavBar() {
             <div className="navBar">
                 <img onClick={navToHome} className="logo" src={Logo} alt="JamesBuiLogo" />
                 <div>
-                    <Button  onClick={navToHome} className='button'>Portrait</Button>
+                    <Button onClick={navToHome} className='button'>Portrait</Button>
                     <Button onClick={navToAbout} className='button' >About</Button>
                     <Button onClick={navToContact} className='button' >Contact</Button>
                 </div>
