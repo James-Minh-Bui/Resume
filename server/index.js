@@ -12,6 +12,10 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname +'/public')));
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
