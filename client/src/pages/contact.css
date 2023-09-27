@@ -4,13 +4,13 @@
     z-index: 2;
     display: flex;
     justify-content: center;
-
+    align-items: center;
     transform: translate(-50%, -50%);
     left: 48%;
     top: 48%;
     position: absolute;
-    max-height: 40%;
-    max-width: 40%;
+    max-height: 50%;
+    max-width: 50%;
     height:400px;
     width: 100%;
     background-color: white;
@@ -28,8 +28,8 @@
     left: 52%;
     top: 40%;
     position: absolute;
-    max-height: 40%;
-    max-width: 40%;
+    max-height: 50%;
+    max-width: 50%;
     height:400px;
     width: 100%;
     background-color: rgba(207, 225, 185, 1);
@@ -57,7 +57,6 @@
 }
 
 .title {
-    margin-top: 40px;
     padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:x-large;
@@ -110,8 +109,19 @@ form {
         max-width: 55%;
         max-height: 55%;
     }
-    .portrait {
-        max-width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: medium;
+    }
+    .frontdiv2 {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .backdiv2 {
+        max-width: 80%;
+        max-height: 80%;
     }
 }
 

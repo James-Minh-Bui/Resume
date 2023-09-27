@@ -132,8 +132,9 @@
         font-size: medium; 
     }
     .box {
-        max-width: 80%;
+        width: 80%;
     }
+
 }
   
 
@@ -153,6 +154,10 @@
     .description {
         font-size: small; 
     }
+    .box {
+        width: 80%;
+    }
+
 }
 
 ::-webkit-scrollbar {
