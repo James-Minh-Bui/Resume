@@ -131,6 +131,9 @@
     .description {
         font-size: medium; 
     }
+    .box {
+        max-width: 80%;
+    }
 }
   
 
