@@ -30,7 +30,7 @@ export default function Portfolio() {
                 <div className="box">
                     <div className="projectTxt">
                         <p className="projectTittle">Squeezed</p>
-                        <p className="description">DoorCast is a prototyping tool that allows developers to render code in the new fullstack framework called Fresh. Simply by selecting the element you want to render, dropping it into the workspace, and specifiy the necessary attribute values, users then have the ability to copy and utulize production ready code for their application.</p>
+                        <p className="description">Squeezed is a prototyping tool that allows developers to render code in the new fullstack framework called Fresh. Simply by selecting the element you want to render, dropping it into the workspace, and specifiy the necessary attribute values, users then have the ability to copy and utulize production ready code for their application.</p>
                         <a className="atag" href="https://medium.com/@alexaroberts/prototyping-tool-for-the-freshest-deno-framework-3df9c4c718dc" target="blank">
                             <p className="link">Learn More</p>
                             <KeyboardArrowRightIcon className="arrow"/>
